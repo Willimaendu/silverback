@@ -86,7 +86,7 @@
             <article class="content wrap" id="_content" data-uid="message-broker">
 <h1 id="connecting-to-a-message-broker">Connecting to a Message Broker</h1>
 
-<p>To connect Silverback to a message broker we need a reference to <a href="https://www.nuget.org/packages/Silverback.Integration">Silverback.Integration</a>, plus the concrete implementation (<a href="https://www.nuget.org/packages/Silverback.Integration.Kafka">Silverback.Integration.Kafka</a>, <a href="https://www.nuget.org/packages/Silverback.Integration.RabbitMQ">Silverback.Integration.RabbitMQ</a>, etc.). We can then add the broker to the DI and configure the connected endpoints.</p>
+<p>To connect Silverback to a message broker we need a reference to <a href="https://www.nuget.org/packages/Silverback.Integration">Silverback.Integration</a>, plus the concrete implementation (<a href="https://www.nuget.org/packages/Silverback.Integration.Kafka">Silverback.Integration.Kafka</a>, <a href="https://www.nuget.org/packages/Silverback.Integration.MQTT">Silverback.Integration.MQTT</a>, <a href="https://www.nuget.org/packages/Silverback.Integration.RabbitMQ">Silverback.Integration.RabbitMQ</a>, etc.). We can then add the broker to the DI and configure the connected endpoints.</p>
 <h2 id="sample-configuration">Sample configuration</h2>
 <p>The following example is very basic and there are of course many more configurations and possibilities. Some more details are given in the dedicated <a class="xref" href="outbound.html">Outbound Endpoint</a> and <a class="xref" href="inbound.html">Inbound Endpoint</a> sections.</p>
 <p>The basic concepts:</p>
